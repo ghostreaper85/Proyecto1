@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: navy;
+    color: aliceblue;
+}
+.background-picture{
+    background-image: url("../imagenes/landscape.jpg");
+    background-size: cover;
+}
+.profile-imagen{
+    margin: 40px 0px0px 20px;
+    width: 10%;
+    border-radius: 50%;
+    border: 3px solid rgb(6, 199, 247);
+}
+.informacion{ 
+    font-size: larger;
+    color: black;
+    align-items: baseline;
+}
+
+a{
+    color: rgba(252, 248, 0, 0.527);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+}
+nav .bar{
+    margin-left: auto;
+}
+nav a{
+    padding: 1rem;
+    font-size: 20px;
+    transition: all 0.5s;
+    display: inline-block;
+}
+nav a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+nav h1{
+    font-size: 30px;
+    margin: 10px 0px 10px 10px;
+}
+profile{
+    border: 10px double black;
+    border-color: aqua;
+    width: 20%;
+    align-content: center;
+}
+.informacion{
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.estudio{
+    padding-left: 20px;
+}
+.name{
+    margin-bottom: 0px;
+}
+footer{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.lista-contacto{
+    list-style-type: none;
+    margin: auto;
+}
+.btn btn-outline-primary{
+    border-style: double;
+}
+.lista-contacto li{
+    display: contents;
+}
