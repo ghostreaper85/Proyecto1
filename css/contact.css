@@ -1,3 +1,23 @@
 .background-contact{
+    background-image: url(../imagenes/contact\ gif.gif);
+    background-size: cover;
+    min-height: 100vh;
+}
+.content-container{
+    width: 50%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 30%;
+    border-color: rgb(85, 235, 185);
+    color: aqua;
     
 }
